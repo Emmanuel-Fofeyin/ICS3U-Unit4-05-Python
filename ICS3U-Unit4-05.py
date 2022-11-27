@@ -24,7 +24,7 @@ def main():
                     continue
                 add_int = add_int + user_number
                 sum = add_int
-            print("The sum of just the positive numbers is = {0}".format(sum))
+            print("The sum of just the positive numbers = {0}".format(sum))
         else:
             print("You did not enter a positive integer.")
     except ValueError:
