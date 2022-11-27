@@ -28,7 +28,7 @@ def main():
         else:
             print("You did not enter a positive integer.")
     except ValueError:
-        print("{0}, is not a valid input." .format(loops_string))
+        print("{0}, is not a valid input.".format(loops_string))
 
     print("\nDone.")
 
