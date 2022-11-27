@@ -113,9 +113,13 @@
                 <mxCell id="132" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="129" target="116" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="129" target="147">
+                <mxCell id="146" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;" edge="1" parent="1" source="129" target="147">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="360" y="660" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="320" y="630"/>
+                            <mxPoint x="390" y="630"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="129" value="while loop_counter &amp;lt; loops_integer:" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -181,11 +185,19 @@
                 <mxCell id="144" value="sum = add_int" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="85.31" y="1090" width="104.37" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="147" value="print(&quot;&lt;br&gt;The sum &lt;br&gt;of just the positive &lt;br&gt;numbers&amp;nbsp; =&lt;br&gt;&amp;nbsp;{0}&quot;.format(sum))" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="322.18" y="627.5" width="163.12" height="82.5" as="geometry"/>
+                <mxCell id="149" style="edgeStyle=none;html=1;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" edge="1" parent="1" source="147" target="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="1190" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="390" y="1190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="147" value="print(&quot;The sum of all &lt;br&gt;positive integers = {0}&quot;.format(sum))" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="660" width="160" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="148" value="&lt;font style=&quot;font-size: 12px&quot;&gt;no&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-                    <mxGeometry x="317.18" y="620" width="30" height="20" as="geometry"/>
+                    <mxGeometry x="330" y="610" width="30" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
