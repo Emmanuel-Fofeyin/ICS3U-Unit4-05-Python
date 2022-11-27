@@ -24,11 +24,11 @@ def main():
                     continue
                 add_int = add_int + user_number
                 sum = add_int
-            print("Sum of just the positive numbers is = {0}".format(sum))
+            print("The sum of just the positive numbers is = {0}".format(sum))
         else:
-            print("That is not a positive integer.")
+            print("You did not enter a positive integer.")
     except ValueError:
-        print("That is not a valid input, try again.")
+        print("That is not a valid input.")
 
     print("\nDone.")
 
